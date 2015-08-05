@@ -1,5 +1,5 @@
 class String
-  define_method(:beats?) do |player_2|
+  define_method(:beats?) do |player_2|    
     if  self == "rock" && player_2 == "scissors" || self == "scissors" && player_2 == "paper" || self == "paper" && player_2 == "rock"
       return true
     elsif self == player_2
